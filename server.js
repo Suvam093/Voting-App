@@ -20,5 +20,5 @@ app.use('/user' ,userRoutes);
 app.use('/candidate',candidateRoutes);
 
 app.listen(PORT, () => {
-    console.log("Server is running on port 3000");
+    console.log(`Server is running on port ${PORT}`);
 })            // 1st argument is the port number where we define the port number and 2nd argument is the callback function
